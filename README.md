@@ -10,7 +10,8 @@ This project revolved around tinkering with the online API, http://jsonplacehold
 
 Basic authentication, displaying lists of various content as well as filtering information specific to certain IDs, etc were done in this project.
 
-Mobile Version Screenshots:
+#Mobile Version Screenshots:
+
 ![Mobile Login](/public/img/mobile-login.png)
 ![Mobile Photos](/public/img/mobile-my-albums-photos.png)
 ![Mobile Albums](/public/img/mobile-my-albums.png)
@@ -19,7 +20,8 @@ Mobile Version Screenshots:
 ![Mobile Posts](/public/img/mobile-news-posts.png)
 ![Mobile User Profile](/public/img/mobile-user-profile.png)
 
-Desktop Version Screenshots:
+#Desktop Version Screenshots:
+
 ![Desktop Login](/public/img/desktop-login.png)
 ![Desktop Photos](/public/img/desktop-my-albums-photos.png)
 ![Desktop Albums](/public/img/desktop-my-albums.png)
