@@ -1,0 +1,56 @@
+.user-profile-page{
+  margin-top: 4em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.general-info, .address-info {
+  width: 82.5%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5em;
+  border: 3px solid grey;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.page-title, .large-title {
+  font-weight: 600;
+  font-style: italic;
+  margin: 0.1em;
+}
+
+.user-profile-exit{
+  margin-bottom: 3em;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.info-slot{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0.25em 0em;
+}
+
+.category {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+
+.line-spacer {
+  width: 100%;
+  height: 2px;
+  background-color: orangered;
+  opacity: 0.5;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  opacity: 0.85;
+}

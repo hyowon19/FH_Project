@@ -1,0 +1,106 @@
+.user-album-page {
+  margin: 1em 0em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-album {
+  display:none;
+}
+
+.user-album-active {
+  width: 80%;
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid grey;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.user-album-page-id{
+  font-style: italic;
+  font-size: 0.75em;
+  font-weight: 600;
+}
+
+.user-album-page-title {
+  font-size: 1.05em;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  color: rgba(255,75,0,1);
+}
+
+.user-album-left {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.user-album-right{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.open-icon {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.open-icon img{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: flex-end;
+  width: 25px;
+  height: 25px;
+}
+
+.photo-album{
+  display: none;
+}
+
+.photo-album-active{
+  display: block;
+}
+
+.photo-album-content{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-album-exit{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-album-exit p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  font-style: italic;
+  font-weight: 600;
+  margin: 0.5em 0.25em;
+}
+
+.photo-album-exit img {
+  margin: 0.5em 0.25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}

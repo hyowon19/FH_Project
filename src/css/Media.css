@@ -1,0 +1,40 @@
+@media only screen and (min-width: 320px) {
+  .login img{
+    max-width: 80%;
+  }
+
+  .login-form {
+    width: 65%;
+  }
+
+}
+
+@media only screen and (min-width: 540px) {
+  .login img {
+    max-width: 50%;
+  }
+
+  .login-form {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .login img {
+    max-width: 40%;
+  }
+
+  .login-form {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .login img {
+    max-width: 30%;
+  }
+
+  .login-form {
+    width: 30%;
+  }
+}

@@ -1,0 +1,119 @@
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0.85em;
+  background: rgba(0,0,0,1);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 20;
+  background: #111111;
+  background: -moz-linear-gradient(-8deg,  #111111 60%,#333333 62%,#111111 100%);
+  background: -webkit-linear-gradient(-8deg,  #111111 60%,#333333 62%,#111111 100%);
+  background: linear-gradient(172deg, #111111 60%,#333333 62%,#111111 100%);
+}
+
+.main-header-title {
+  width: 50%;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.25em;
+}
+
+.main-header-profile {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.main-header-user {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header-user-logged-in {
+  font-size: 0.9em;
+  font-style: italic;
+  margin-right: 1em;
+  color: rgba(135,135,255,1);
+}
+
+.main-header-logout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1.75em;
+  font-size: 0.9em;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: rgba(150,150,150,0.85);
+  padding: 0.5em;
+  font-size: 0.85em;
+  font-style: italic;
+  background: #111111;
+  background: -moz-linear-gradient(-8deg,  #111111 60%,#333333 62%,#111111 100%);
+  background: -webkit-linear-gradient(-8deg,  #111111 60%,#333333 62%,#111111 100%);
+  background: linear-gradient(172deg, #111111 60%,#333333 62%,#111111 100%);
+}
+
+.login{
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.login img {
+  max-width: 80%;
+}
+
+.login-form {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.login-form input {
+  padding: 0.25em;
+  font-size: 1.25em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  border: 2px solid rgba(135,135,255,1);
+  color: rgba(135,135,255,1);
+}
+
+button.login-form-button {
+  outline: 0;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0.25em;
+  font-size: 1.25em;
+}
